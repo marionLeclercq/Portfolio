@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<?php echo "<html lang='{$_SESSION['langue']}'>\n" ?>
+<head>
+    <meta charset="UTF-8">
+    <title>Marion Leclercq | Développeuse Web Junior | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--====================== CSS ===============================-->
+    <link href = "css/normalize.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" media="all" href= "css/laptop.css" />
+    <link rel="stylesheet" media="only screen and (min-width:749px) and (max-width:1100px)" href="css/tablette.css" />
+    <link rel="stylesheet" media="only screen and (min-width:240px) and (max-width: 748px)" href="css/smartphone.css" />
+    <!--================== JQUERY ===============================-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <!--================== FONTS ===============================-->
+    <link href="https://fonts.googleapis.com/css?family=Mystery+Quest&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160415458-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-160415458-1');
+    </script>
+</head>
+
+<body>
+<!--====================== NAVIGATION ===============================-->
+    <header>   
+        <nav id="navigation">  
+            <ul id = "menu">
+                <li class="menu"><span>MENU</span>
+                    <ul id="sousmenu">
+                        <li><a href="index.php">Accueil.</a></li>
+                        <li><a href="#transition1">A propos.</a></li>
+                        <li><a href="#transition2">C.V.</a></li>
+                        <li><a href="#transition3">Compétences.</a></li>
+                        <li><a href="#transition4">Portfolio.</a></li>
+                        <li><a href="#transition5">Contact.</a></li>    
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<!--====================== ACCUEIL ===============================-->
+<section id="accueil">  
+<canvas id="espace" height ="800"></canvas> 
+    <h1> Marion Leclercq</h1>
+    <h1>Développeuse web</h1>
+    <div id="show"><a href="#transition1">Laissez-moi vous montrer</a></div>
+</section>
+
+        <div id="transition1"></div>
+<!--====================== A PROPOS ===============================-->        
+<section id="propos">
+    <h2>A propos. </h2>
+    <p>Passionnée par la culture digitale et après un apprentissage autodidacte en développement front-end, j'ai décidé de me reconvertir et de me former au développement web en intégrant la licence professionnelle informatique multimédia appliquée à Nice. Après un an de formation orientée aussi bien front-end que back-end, et forte de ma première expérience professionnelle en tant que développeuse fullstack, je recherche un poste à temps complet. Mes huit années d'expériences professionnelles en tant que conseillère de vente, m'ont apporté le sens de la relation client et du travail en équipe. Ma motivation et ma maturité, me permettent d'acquérir rapidement de nouvelles compétences nécessaires au métier de développeur web.</p> 
+    <div>         
+        <div><a href="Ressources/CV.pdf" target="blanck">Mon CV détaillé</a></div>
+        <div>
+            <p>Retrouvez-moi sur :</p>
+            <a href="https://github.com/marionLeclercq/" target="blanck"><img src="Images/github.jpg" alt="github"></a>
+            <a href="https://linkedin.com/in/marion-leclercq/" target="blanck"><img src="Images/linkedin_logo.png" alt="linkedin"></a>
+        </div>
+    </div>
+</section>
+
+
+        <div id="transition2"></div>
+<!--====================== CV ===================================-->
+        <section id ="CV">
+        <h2>C.V.</h2>
+            <div id="container">
+                <div id="left-content">
+                    <h3>Formations</h3>
+                    <div id="diplome">
+                        <h3>2019-2020</h3>
+                        <h4>Université Nice Sophia-Antipolis</h4>
+                        <p>Licence Professionnelle informatique multimédia appliquée</p>
+                    </div>
+                    <div id="diplome">
+                        <h3>2006-2009</h3>
+                        <h4>Université Nice Sophia-Antipolis</h4>
+                        <p>Licence de chimie</p>
+                    </div>
+                    <div id="diplome">
+                        <h3>2005</h3>
+                        <h4>Lycée Estienne d'Orves</h4>
+                        <p>Baccalauréat scientifique, mention assez bien</p>
+                    </div>
+                </div>
+                <div id="right-content">
+                    <h3>Expériences professionelles</h3>
+                    <div id="exp">
+                        <h3>Juin-août 2020</h3>
+                        <h4>Stagiaire développement web fullstack</h4>
+                        <p>Télémaque - Sophia-Antipolis </p>
+                    </div> 
+                    <div id="exp">
+                        <h3>2011-2018</h3>
+                        <h4>Conseillère en vente cosmétique - esthétique</h4>
+                        <p>Institut La rose des Sables - Nice</p>
+                    </div>  
+                    <div id="exp">
+                        <h3>mai-novembre 2010</h3>
+                        <h4>Employée de pharmacie</h4>
+                        <p>Pharmacie des Arts - Nice </p>
+                    </div>  
+                    <div id="exp">
+                        <h3>2009-2010</h3>
+                        <h4>Missions intérimaires - Vendeuse</h4>
+                        <p>Fnac, Galeries Lafayettes, Jules - Nice </p>
+                    </div>  
+                    <div id="exp">
+                        <h3>juillet-août 2008</h3>
+                        <h4>Stagiaire chimiste, analyses des eaux de piscine</h4>
+                        <p>Laboratoire de l’environnement Nice côte d’azur, secteur Chimie</p>
+                    </div>   
+                </div>
+            </div>
+        </section> 
+
+        <div id="transition3"></div>
+<!--====================== COMPETENCES ===============================-->
+        <section id ="Competences">
+        <h2>Compétences.</h2>
+        <p>Langages de programmation et outils maîtrisés:</p>
+        <div id="prog">
+            <span>HTML5</span>    
+            <div>
+                <div style="width:80%">80%</div>
+            </div><br>
+            <span>CSS3</span>    
+            <div>
+                <div style="width:80%">80%</div>
+            </div><br>
+            <span>JAVASCRIPT</span>    
+            <div>
+                <div style="width:50%">50%</div>
+            </div><br>
+            <span>JQUERY</span>    
+            <div>
+                <div style="width:60%">60%</div>
+            </div><br>
+            <span>MySQL</span>    
+            <div>
+                <div style="width:70%">70%</div>
+            </div><br>
+            <span>PHP</span>    
+            <div>
+                <div style="width:50%">50%</div>
+            </div><br>
+            <span>GIT</span>    
+            <div>
+                <div style="width:60%">60%</div>
+            </div><br>
+            <span>TWIG</span>    
+            <div>
+                <div style="width:70%">70%</div>
+            </div><br>
+            <span>WORDPRESS</span>    
+            <div>
+                <div style="width:50%">50%</div>
+            </div><br>
+            <span>PHOTOSHOP</span>    
+            <div>
+                <div style="width:30%">30%</div>
+            </div><br>
+        </div>
+        <p>Compétences personnelles:</p>
+        <div id="perso"></div>
+        </section>
+
+        <div id="transition4"></div>
+<!--====================== PORTFOLIO ===============================-->
+        <section id="Portfolio">
+            <h2>Portfolio.</h2> 
+            <p>Voici mes réalisations...</p>
+            <div id="miniCreas">   
+                <figure>
+                <a href="photographies06.netlify.com/" target="blanck"><img src="Images/siteACphotoCouverture.png" alt="le projet photographe"/></a>
+                    <figcaption>
+                        <h3>AC.photographie06</h3>
+                        <p>Développement, Projet personnel</p>
+                        <a href="https://ac-photographies06.netlify.com/" target="blanck">Voir</a>
+                        <br><br><br><br><br><br>
+                    </figcaption>
+                </figure>
+                <figure>
+                <a href="https://travelagency000.netlify.com" target="blanck"><img src="Images/agence.png" alt="agence_voyage"/></a>
+                    <figcaption>
+                        <h3>Travel Agency</h3>
+                        <p>Design, Développement, Projet personnel</p>
+                        <a href="https://travelagency000.netlify.com" target="blanck">Voir</a>
+                        <br><br><br><br><br><br>
+                    </figcaption>
+                </figure>
+                <figure>
+                <a href="Ressources/surrealisme.pdf" target="blanck"><img src="Images/photoshop1.jpg" alt="Montage surréAliste"/></a>
+                    <figcaption>
+                        <h3>Montage surréaliste</h3>
+                        <p>Photoshop, Projet Licence</p>
+                        <a href="Ressources/surrealisme.pdf" target="blanck">Voir</a>
+                        <br><br><br><br><br><br>
+                    </figcaption>
+                </figure>
+                <figure>
+                <a href="Ressources/fusion.pdf" target="blanck"><img src="Images/photoshop2.jpg" alt="Montage fusion"/></a>
+                    <figcaption>
+                        <h3>Montage fusion</h3>
+                        <p>Photoshop, Projet Licence</p>
+                        <a href="Ressources/fusion.pdf" target="blanck">Voir</a>
+                        <br><br><br><br><br><br>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="Ressources/retouche.pdf" target="blanck"><img src="Images/barque2.png" alt="Retouche"/></a>
+                    <figcaption>
+                        <h3>Retouche vieille photo </h3>
+                        <p>Photoshop, Projet Licence</p>
+                        <a href="Ressources/retouche.pdf" target="blanck">Voir</a>
+                        <br><br><br><br><br><br>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="https://top5actricesjquery.netlify.com" target="blanck"><img src="Images/jquery.png" alt="Actrices"/></a>
+                    <figcaption>
+                        <h3>Top 5 des meilleures actrices </h3>
+                        <p>Projet personnel en Jquery</p>
+                        <a href="https://top5actricesjquery.netlify.com" target="blanck">Voir</a>
+                        <br><br><br><br><br><br>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <div id="transition5"></div>
+<!--====================== CONTACT ===============================-->
+        <section id="Contact">
+            <h2>Contact.</h2> 
+            <div id="contact">
+                <p>N'hésitez pas <br> à me contacter</p>
+                <a href="mailto:hete06@gmail.com">hete06@gmail.com</a><br><br>
+                <a href="tel:0679874279">06.79.87.42.79</a>
+            </div>
+            <!-- <form action="" method="post" onsubmit="return verifier()">
+            <?php
+            
+                if (isset($_POST['valider'])) {
+                    $name = $_POST['user_name'];
+                    $mail = $_POST['user_mail'];
+                    $msg = $_POST['user_message'];
+            
+                    $query = $pdo->prepare("INSERT INTO  `formulaire`(`nom`, `email`, `contenu`)  VALUES (:nom,:email,:contenu)");
+                    $query->bindParam("nom", $name, PDO::PARAM_STR);
+                    $query->bindParam("email", $email, PDO::PARAM_STR);
+                    $query->bindParam("contenu", $msg, PDO::PARAM_STR);
+                    $result = $query -> execute(array('nom'=>$name,'email'=>$mail,'contenu'=>$msg));
+                    $confirm = "Message envoyé";
+                } 
+                else{
+                    $confirm ="";
+                } 
+                if(!empty($confirm)) echo "<p>".$confirm."</p>" ;   
+            ?>
+                <div>
+                     <input type="text" id="name" name="user_name" placeholder="Votre nom">
+                </div>
+                <div>
+                    <input type="text" id="mail" name="user_mail" placeholder="Votre email">
+                </div>
+                <div>
+                    <textarea id="msg" name="user_message" placeholder="Votre message" rows="5" cols="33"></textarea>
+                </div>
+                <button type="submit" name="valider">ENVOYER</button>
+            </form> -->
+        </section>   
+    </main>
+<!--====================== FOOTER ===============================-->  
+<footer>
+    <div id="fleche"><a href="index.html"><img src="Images/fleche.png" alt="fleche"></a></div>
+    <div id="copyright">
+        <p>© 2020 copyright - Réalisation avec ❤️ par <a href='BO/choixtable.php'>Leclercq Marion</a>.</p>
+    </div>
+</footer>
+
+<!--====================== SCRIPT JS ===============================-->
+    <!--- SCRIPT page accueil -->
+    <script src="JS/animation_accueil.js"></script>
+    <script src="JS/verif_formulaire.js"></script>
+    <script src = "JS/menu.js" type="text/javascript"></script>
+    <!--- SCRIPT competences perso -->
+    <script >
+        let texte = ["Adaptabilité", "Autonomie", "Gestion de projet", "Veille technologique quotidienne", "Anglais technique"];
+        let nb = -1;
+        function change(){
+            if(nb==texte.length-1){
+                nb=0;
+            }else{
+                nb++;
+            }
+            document.getElementById("perso").innerHTML=texte[nb];
+        }
+
+        setInterval("change()",3000);
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+/*------------ 1. Général -----------*/
+h2{
+    font-size: 2.2rem;
+}
+/*-------- 2. Partie barre de navigation --------*/
+ul#menu>li>a{
+    font-size: 25px;
+    padding: 8px;
+}
+#sousmenu{
+    margin-top: 15px;
+}
+/*------------- 3. Partie Accueil --------*/
+#accueil h1{
+    font-size: 4rem;
+    padding-top: 12%;
+}
+#accueil h1+h1{
+    font-size: 2.1rem;
+}
+#show a{
+    font-size: 1.1rem;
+}
+/*------------- 5. Partie A propos -----------*/
+#propos>p{
+    font-size: 1.2rem;
+    padding-bottom: 10%;
+    margin: 0 5%;
+}
+/*------------------ 6. Partie CV --------------*/
+
+#container {
+    margin: auto 5px;
+}
+#right-content>h3, #left-content>h3{
+    font-size: 1.3rem;
+}
+/*------------- 7. Partie Compétences --------*/
+#perso{
+    font-size: 1.1rem;
+}
+#perso th{
+    display: block;
+}
+#Competences p{
+    padding-left: 10%;
+}
+#prog, #perso{
+    margin:auto 10%;
+}
+
+/*------------- 8. Partie Portfolio -----------*/
+#miniCreas figcaption{
+    position:absolute; 
+    top:-999px; 
+    left:-9999px;
+}
+#miniCreas figure figcaption,
+#miniCreas figure:hover img {
+    display:block;
+}
+/*------------- 9. Partie Contact --------*/
+#Contact{
+    display:flex;
+    flex-direction: column;
+}
+#contact{
+    width: 70%;
+    margin: 0 auto;
+}
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+#contact>p{
+    font-size: 1.5rem;
+}
+#contact>a{
+    font-size: 1.2rem;
+}
