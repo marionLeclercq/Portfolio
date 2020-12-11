@@ -271,7 +271,7 @@ canvas {
     border-bottom: solid #4A2CFF 2px;
     font-size: 1.5rem;
 }
-#diplome, #exp{
+.diplome, .exp{
     background: rgb(43,43,43);
     
 }
